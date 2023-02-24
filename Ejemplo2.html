@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../Js/Script.js"></script>
+    <link rel="stylesheet" href="../Css/Estilo.css">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <div class="big-container">
+        <div id="IMC">
+            <div>
+                <h3>Ingrese sus datos</h3>
+                <form action="">
+                    <div style="position: relative; justify-content: center; display: grid;">
+                    <label for="">Nombre</label>
+                    <input type="text" id="txtNom">
+                    <br><br>
+                    <label for="">Peso</label>
+                    <input type="text" id="txtPeso">
+                    <br><br>
+                    <label for="">Estatura</label>
+                    <input type="text" id="txtEstatura">
+                    <br><br>
+                    <input type="button" value="Enviar" onclick="calcular()" style="cursor: pointer;">
+                    <br>
+                    <input type="button" value="Limpiar" onclick="limpiar()" style="cursor: pointer;">
+                    </div>
+                </form>
+            </div>
+            <br><br>
+            <hr>
+            <div class="div2">
+                <h3>Resultado</h3>
+                <form action="">
+                    <div style="position: relative; justify-content: center; display: grid;">
+                        <label for="">IMC</label>
+                        <input type="text" id="txtimc">
+                        <br><br>
+                        <label for="">Estado</label>
+                        <input type="text" id="resultado">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
